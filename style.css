@@ -1,0 +1,197 @@
+.img{
+width: 200px;
+height: 100px;
+}
+#h1{
+text-align: center;
+}
+#h2{
+text-align: center;
+}
+#text{
+    display: flex;
+    justify-content: space-evenly;
+}
+#text2{
+text-align: center;
+}
+#text3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#text4{
+text-align: center;
+}
+#page1{
+display: flex;
+justify-content: space-evenly;
+}
+#page2{
+display: flex;
+justify-content: space-evenly;
+}
+#page3{
+display: flex;
+justify-content: space-evenly;
+}
+#txt{
+text-align: center;
+}
+#text6{
+display: flex;
+justify-content: space-evenly;
+}
+#center{
+text-align: center;
+}
+#page5{
+display: flex;
+font-size: small;
+}
+.img5{
+width: 650px;
+}
+#my text{
+font-size: small;
+}
+#footer{
+display: flex;
+justify-content: space-evenly;
+background-color: black;
+color: whitesmoke;
+}
+#page8{
+background-color: rgb(209, 200, 218);
+}
+span{
+color:rgb(223, 153, 83);
+}
+#txt1{
+background-color:rgb(223, 153, 83);
+
+background-color: white;
+}
+button{
+background-color: rgb(218, 127, 127);
+}
+#txt2{
+background-color: white;
+}
+#txt3{
+background-color: white;
+}
+#navbar{
+    display: flex;
+}
+.img7{
+    width: 1200px;
+}
+
+
+
+
+
+@media screen  and(max-width:667px){
+
+body{
+   border: 70px; 
+   color: blue;
+}
+.img7{
+  width: 20px;  
+  height:20px;
+
+
+}
+#main container{
+    overflow-x: hidden;
+    margin: 0;
+}
+    
+
+.img{
+    width: 100px;
+    
+    }
+    #h1{
+    text-align: center;
+    }
+    #h2{
+    text-align: center;
+    }
+    #text{
+        flex-wrap: wrap;
+    
+    }
+    #text2{
+    text-align: center;
+    }
+    #text3{
+        flex-wrap: wrap;
+
+    }
+    #text4{
+    text-align: center;
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #page1{
+    flex-wrap: wrap;
+
+    }
+    #page2{
+    flex-wrap: wrap;
+    }
+    #page3{
+    flex-wrap: wrap;
+    
+    }
+    #txt{
+    text-align: center;
+    }
+    #text6{
+    flex-wrap: wrap;
+
+    }
+    #center{
+    text-align: center;
+    }
+    #page5{
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    
+    }
+    .img5{
+    width: 650px;
+    }
+    #my text{
+    }
+    #footer{
+    flex-wrap: wrap;
+    background-color: black;
+    color: whitesmoke;
+    grid-template-columns: auto;
+    }
+    #page8{
+    background-color: rgb(209, 200, 218);
+    }
+    span{
+    color:rgb(223, 153, 83);
+    }
+    #txt1{
+    background-color:rgb(223, 153, 83);
+    
+    background-color: white;
+    }
+    .photos{
+        width: 20px;
+    }
+    button{
+    background-color: rgb(218, 127, 127);
+    }
+    #txt2{
+    background-color: white;
+    }
+    #txt3{
+    background-color: white;
+    }}
